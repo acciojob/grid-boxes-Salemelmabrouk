@@ -3,7 +3,7 @@
    display: grid;
 	   grid-template-rows: 124px 124px 124px 124px 124px;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  
    gap: 5px;
 }
 .grid-item{
