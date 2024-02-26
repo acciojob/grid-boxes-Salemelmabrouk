@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
 .grid-container {
    display: grid;
+	   grid-template-rows: 124px 124px 124px 124px 124px;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
    gap: 5px;
@@ -18,6 +19,7 @@
 #first-child(1) {
    grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
    grid-column : 1/5;  
+	  grid-column: span 4 / auto;
 }
 
 #second-child(2) {
