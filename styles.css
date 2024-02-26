@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+.grid-container {
+   display: grid;
+  
+    gap: 5px;
+}
+.grid-item{
+   list-style-type: none;
+   background-color: darkgreen;
+   gap: 50px;
+   padding: 35px;
+  
+   text-align: center;
+ align-items: center;
+   color: white;
+   font-size: 40px;
+}
+
+#box1 {
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
+   grid-column : 1/5;  
+}
+
+#box2 {
+   grid-template-rows:   1fr 1fr 1fr 1fr ;
+   grid-row : 2/6;  
+}
+
+#box4 {
+   grid-template-columns:   1fr 1fr   ;
+   grid-column : 3/5;  
+}
+
+#box5 {
+   grid-template-columns:   1fr 1fr   ;
+   grid-column : 2/4;  
+}
+
+
+#box10 {
+   grid-template-columns:  1fr 1fr 1fr 1fr  ;
+   grid-column : 2/5;  
+}
