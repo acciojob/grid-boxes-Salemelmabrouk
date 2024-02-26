@@ -15,28 +15,28 @@
    font-size: 40px;
 }
 
-#box1 {
+#first-child(1) {
    grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
    grid-column : 1/5;  
 }
 
-#box2 {
+#second-child(2) {
    grid-template-rows:   1fr 1fr 1fr 1fr ;
    grid-row : 2/6;  
 }
 
-#box4 {
+#fourth-child(4) {
    grid-template-columns:   1fr 1fr   ;
    grid-column : 3/5;  
 }
 
-#box5 {
+#fifth-child(5){
    grid-template-columns:   1fr 1fr   ;
    grid-column : 2/4;  
 }
 
 
-#box10 {
+#tenth-child(10) {
    grid-template-columns:  1fr 1fr 1fr 1fr  ;
    grid-column : 2/5;  
 }
