@@ -15,29 +15,29 @@
    font-size: 40px;
 }
 
-#first-child(1) {
-   grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
- grid-column : 1/5; 
+#first  {
+     grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
+     grid-column : 1/5;
 	 
 }
 
-#second-child(2) {
+#second  {
    grid-template-rows:   1fr 1fr 1fr 1fr ;
    grid-row : 2/6;  
 }
 
-#fourth-child(4) {
+#fourth  {
    grid-template-columns:   1fr 1fr   ;
    grid-column : 3/5;  
 }
 
-#fifth-child(5){
+#fifth {
    grid-template-columns:   1fr 1fr   ;
    grid-column : 2/4;  
 }
 
 
-#tenth-child(10) {
+#tenth {
    grid-template-columns:  1fr 1fr 1fr 1fr  ;
    grid-column : 2/5;  
 }
