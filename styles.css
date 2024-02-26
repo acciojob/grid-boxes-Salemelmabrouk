@@ -1,17 +1,16 @@
 /*  your css code here. If applicable */
 .grid-container {
    display: grid;
-  
-    gap: 5px;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+   gap: 5px;
 }
 .grid-item{
-   list-style-type: none;
+  list-style-type: none;
    background-color: darkgreen;
-   gap: 50px;
    padding: 35px;
-  
    text-align: center;
- align-items: center;
+   align-items: center;
    color: white;
    font-size: 40px;
 }
