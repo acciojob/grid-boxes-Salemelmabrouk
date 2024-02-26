@@ -17,8 +17,8 @@
 
 #first-child(1) {
    grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
-   grid-column: 1 / span 4;
-	  grid-column: span 4 / auto;
+   grid-column: 1 / span 5;
+	 
 }
 
 #second-child(2) {
